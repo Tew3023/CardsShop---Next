@@ -111,7 +111,7 @@ export default function Home() {
       <input
             onChange={(e) => setSearch(e.target.value)}
             value={search}
-            className="search p-3 text-white w-full mt-5 min-[10px]:hidden"
+            className="search p-3 text-white w-full mt-5 min-[480px]:hidden max-[480px]: block"
             placeholder="⌕ Search for name"
           />
       <div className="flex justify-between items-center mt-5">
